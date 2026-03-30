@@ -1,1 +1,1 @@
-SELECT * FROM `olist-analytics-491319.raw_data.customers`
+SELECT * FROM {{ source('raw_ecommerce', 'customers') }}

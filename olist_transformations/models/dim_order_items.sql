@@ -1,0 +1,1 @@
+SELECT * FROM `olist-analytics-491319.raw_data.order_items`

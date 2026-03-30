@@ -1,0 +1,14 @@
+# Ignore GCP Credentials
+credentials.json
+
+# Ignore Raw Data
+data/
+
+# Ignore Python & Jupyter junk files
+.ipynb_checkpoints/
+logs/
+__pycache__/
+
+# Ignore dbt target folder (this gets generated automatically)
+olist_transformations/target/
+olist_transformations/dbt_packages/

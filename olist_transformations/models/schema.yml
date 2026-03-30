@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: fact_orders
+    description: "One row per order, including total revenue calculated from payments."
+    columns:
+      - name: order_id
+        description: "Primary key for the order."
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_products
+    description: "Product dimension table with English category translations."
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null
